@@ -147,3 +147,5 @@ const metaBNB = [
     image: Place16,
   },
 ];
+
+export default metaBNB;
