@@ -8,7 +8,16 @@ module.exports = {
       lg: "1024px",
       xl: "1280px",
     },
-    extend: {},
+    extend: {
+      colors: {
+        primary: "#A02279",
+        secondary: "FFC089",
+        text: "#434343",
+        offWhite: "#F7F7F7",
+        footer: "#1D1D1E",
+        pale: "#4040404D"
+      },
+    },
   },
   plugins: [],
 };
