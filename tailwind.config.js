@@ -15,7 +15,12 @@ module.exports = {
         text: "#434343",
         offWhite: "#F7F7F7",
         footer: "#1D1D1E",
-        pale: "#4040404D"
+        pale: "#4040404D",
+      },
+      fontFamily: {
+        default: "Red Rose",
+        openSea: "Poppins",
+        token: "Inter",
       },
     },
   },
