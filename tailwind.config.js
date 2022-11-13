@@ -22,6 +22,15 @@ module.exports = {
         openSea: "Poppins",
         token: "Inter",
       },
+      width: {
+        btn: "170px",
+      },
+      backgroundImage: {
+        btn: "linear-gradient(90deg, #A02279 11.45%, #A02279 11.46%)",
+      },
+      margin:{
+        43: "43px"
+      }
     },
   },
   plugins: [],
