@@ -1,5 +1,5 @@
 import React from "react";
-import { Star } from "../assets";
+import { Setting, Star } from "../assets";
 import { Navbar } from "../components";
 import metaBNB from "../data/data";
 
@@ -7,8 +7,8 @@ const Places = () => {
   return (
     <div>
       <Navbar />
-      <main className="w-full flex flex-col justify-between px-100 mt-32 gap-places">
-        <div className="w-full flex gap-12">
+      <main className="w-full max-w-frame mx-auto flex flex-col justify-between px-12 lg:px-3 mt-32 gap-places">
+        <div className="w-full max-w-full flex items-center gap-12">
           <span className="text-text text-xl font-normal font-default">
             Restaurant
           </span>
@@ -33,8 +33,12 @@ const Places = () => {
           <span className="text-text text-xl font-normal font-default">
             Farm
           </span>
+          <button className="h-12 w-btnAlt bg-white flex items-center justify-between py-3 px-4 border border-borderAlt rounded-lg">
+            <span>Location</span>
+            <img src={Setting} alt="" />
+          </button>
         </div>
-        <div className="w-full grid grid-cols-4 gap-6 place-items-center mx-auto max-w-full">
+        <div className="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 place-items-center mx-auto max-w-full">
           {metaBNB &&
             metaBNB.map((data) => (
               <div
