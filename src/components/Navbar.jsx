@@ -4,7 +4,7 @@ import { Logo } from "../assets";
 
 const Navbar = () => {
   return (
-    <nav className="w-full flex justify-between px-12 lg:px-24 mt-43 h-12">
+    <nav className="w-full flex justify-between px-12 lg:px-100 mt-43 h-12">
       <div>
         <img src={Logo} alt="" loading="lazy" />
       </div>
@@ -24,7 +24,7 @@ const Navbar = () => {
         </Link>
       </div>
 
-      <button className="h-12 rounded-xl flex- justify-center items-center w-btn bg-gradient-to-t from-primary to-primary text-white font-default font-light font-base">
+      <button className="h-12 rounded-xl flex justify-center items-center w-btn bg-gradient-to-t from-primary to-primary text-white font-default font-light font-base">
         Connect Wallet
       </button>
     </nav>
