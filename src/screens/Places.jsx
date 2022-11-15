@@ -7,8 +7,8 @@ const Places = () => {
   return (
     <div>
       <Navbar />
-      <main className="w-full max-w-frame mx-auto flex flex-col justify-between px-12 pb-24 lg:px-3 mt-32 gap-places">
-        <div className="w-full max-w-full hidden lg:flex items-center gap-12">
+      <main className="w-full mx-auto flex flex-col justify-between item px-12 pb-24 lg:px-100 mt-32 gap-places">
+        <div className="w-full max-w-full hidden lg:flex lg:justify-center items-center gap-12">
           <span className="text-text text-xl font-normal font-default">
             Restaurant
           </span>

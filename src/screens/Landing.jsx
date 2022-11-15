@@ -6,10 +6,15 @@ import {
   Home4,
   MBToken,
   MetaMaskWhite,
+  NFT1,
+  NFT2,
+  NFT3,
   OpenSea,
+  Star,
 } from "../assets";
 
 import { Footer, Navbar } from "../components/";
+import home from "../data/home";
 
 const Landing = () => {
   return (
@@ -61,6 +66,71 @@ const Landing = () => {
           </span>
         </span>
       </div>
+      {/* next adventure */}
+      <section className="px-100 mt-58 flex flex-col items-center gap-43">
+        <h1 className="text-black text-5xl font-bold font-default">Inspiration for your next adventure</h1>
+        <div className="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 place-items-center mx-auto max-w-full mb-53">
+          {home &&
+            home.map((data) => (
+              <div
+                key={data.id}
+                className="w-box m-0 flex flex-col justify-start items-center rounded-box border bg-white border-border p-4 gap-3"
+              >
+                <section className="w-boxImg h-boxImg rounded-box overflow-hidden border border-border">
+                  <img src={data.image} alt="" className="m-0" />
+                </section>
+                <section className="w-full flex flex-col gap-2.5">
+                  <div className="w-full flex justify-between">
+                    {" "}
+                    <span className="text-text text-xs font-normal font-default">
+                      {data.name}
+                    </span>
+                    <span className="text-text text-xs font-normal font-default">
+                      {data.price}
+                    </span>
+                  </div>
+                  <div className="w-full flex justify-between">
+                    {" "}
+                    <span className="text-text text-xs font-normal font-default">
+                      {data.distance}
+                    </span>
+                    <span className="text-text text-xs font-normal font-default">
+                      {data.duration}
+                    </span>
+                  </div>
+                  <div className="w-full flex justify-start items-center gap-2">
+                    <img src={Star} alt="" />
+                    <img src={Star} alt="" />
+                    <img src={Star} alt="" />
+                    <img src={Star} alt="" />
+                    <img src={Star} alt="" />
+                  </div>
+                </section>
+              </div>
+            ))}
+        </div>
+      </section>
+      {/* Metabnb Nfts */}
+      <section className="bg-primary p-100 flex justify-between items-center">
+        <div className="w-full max-w-nft flex flex-col basis-2/4">
+          <h1 className="font-default font-bold text-white text-5xl mb-35">
+            Metabnb NFTs
+          </h1>
+          <p className="mb-14 text-white font-default">
+            Discover our NFT gift cards collection. Loyal customers gets amazing
+            gift cards which are traded as NFTs. These NFTs gives our cutomer
+            access to loads of our exclusive services.
+          </p>
+          <button className="h-12 rounded-lg flex justify-center items-center w-whitebtn bg-white text-primary font-default font-light font-base">
+            Learn More
+          </button>
+        </div>
+        <div className="relative h-575 w-full max-w-704">
+          <img src={NFT1} alt="" className="absolute left-0 bottom-0 z-10" />
+          <img src={NFT2} alt="" className="absolute right-0 top-0 z-0" />
+          <img src={NFT3} alt="" className="absolute bottom-0 right-0 z-20" />
+        </div>
+      </section>
       <Footer />
     </div>
   );

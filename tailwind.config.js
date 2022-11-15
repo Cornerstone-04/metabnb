@@ -28,12 +28,15 @@ module.exports = {
       },
       width: {
         btn: "170px",
+        whitebtn: "156px",
         box: "292px",
         boxImg: "260px",
         btnAlt: "161px",
         input: "390px",
         formBtn: "230px",
         span: "650px",
+        nft: "415px",
+        704: "704px",
       },
       height: {
         box: "372px",
@@ -42,17 +45,23 @@ module.exports = {
         70: "70px",
         13: "54px",
         span: "460px",
+        575: "575px",
       },
       maxWidth: {
         frame: "1240px",
         input: "390px",
         span: "650px",
+        nft: "415px",
+        704: "704px",
       },
       backgroundImage: {
         btn: "linear-gradient(90deg, #A02279 11.45%, #A02279 11.46%)",
       },
       margin: {
+        35: "35px",
         43: "43px",
+        53: "53px",
+        58: "58px",
         67: "67px",
       },
       padding: {
@@ -64,6 +73,7 @@ module.exports = {
       },
       gap: {
         places: "75px",
+        43: "43px",
       },
       fontSize: {
         3.5: "32px",
@@ -73,6 +83,7 @@ module.exports = {
         99: "99px",
         184: "184px",
         242: "242px",
+        333: "333px",
       },
     },
   },

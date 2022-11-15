@@ -30,6 +30,9 @@ import Home1 from "./images/home/image 4.png";
 import Home2 from "./images/home/image 3.png";
 import Home3 from "./images/home/image 6.png";
 import Home4 from "./images/home/image 5.png";
+import NFT1 from "./images/nfts/nft1.png";
+import NFT2 from "./images/nfts/nft2.png";
+import NFT3 from "./images/nfts/nft3.png";
 
 export {
   Facebook,
@@ -43,6 +46,9 @@ export {
   MetaMask,
   MetaMaskWhite,
   MBToken,
+  NFT1,
+  NFT2,
+  NFT3,
   OpenSea,
   Place1,
   Place2,
