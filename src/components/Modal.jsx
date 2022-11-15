@@ -15,6 +15,7 @@ const Modal = ({ setOpenModal }) => {
             onClick={() => {
               setOpenModal(false);
             }}
+            className="cursor-pointer"
           />
         </div>
         <div className="p-8 flex flex-col gap-4">
