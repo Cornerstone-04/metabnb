@@ -9,3 +9,6 @@
 .nav__link {
   @apply font-normal text-text font-default text-xl;
 }
+.footer__link {
+  @apply font-normal text-white font-default text-sm;
+}

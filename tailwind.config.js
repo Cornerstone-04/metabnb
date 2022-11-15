@@ -33,6 +33,7 @@ module.exports = {
       height: {
         box: "372px",
         boxImg: "265px",
+        footer:"322px"
       },
       maxWidth: {
         frame: "1240px",

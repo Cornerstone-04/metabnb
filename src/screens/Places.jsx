@@ -1,14 +1,14 @@
 import React from "react";
 import { Setting, Star } from "../assets";
-import { Navbar } from "../components";
+import { Footer, Navbar } from "../components";
 import metaBNB from "../data/data";
 
 const Places = () => {
   return (
     <div>
       <Navbar />
-      <main className="w-full max-w-frame mx-auto flex flex-col justify-between px-12 lg:px-3 mt-32 gap-places">
-        <div className="w-full max-w-full flex items-center gap-12">
+      <main className="w-full max-w-frame mx-auto flex flex-col justify-between px-12 pb-24 lg:px-3 mt-32 gap-places">
+        <div className="w-full max-w-full hidden lg:flex items-center gap-12">
           <span className="text-text text-xl font-normal font-default">
             Restaurant
           </span>
@@ -38,7 +38,7 @@ const Places = () => {
             <img src={Setting} alt="" />
           </button>
         </div>
-        <div className="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 place-items-center mx-auto max-w-full">
+        <div className="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 place-items-center mx-auto max-w-full">
           {metaBNB &&
             metaBNB.map((data) => (
               <div
@@ -79,6 +79,7 @@ const Places = () => {
             ))}
         </div>
       </main>
+      <Footer />
     </div>
   );
 };

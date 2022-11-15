@@ -1,11 +1,52 @@
-import React from 'react'
+import React from "react";
+import { Facebook, Instagram, LogoWhite, Twitter } from "../assets";
 
 const Footer = () => {
   return (
-    <footer>
-      
+    <footer className="w-full h-footer pt-16 pb-9 px-100 bg-footer flex justify-between items-start">
+      <section className="flex flex-col gap-24">
+        <img src={LogoWhite} alt="" />
+        <div className="flex flex-col gap-14">
+          <div className="flex items-center gap-8">
+            <img src={Facebook} alt="" />
+            <img src={Twitter} alt="" />
+            <img src={Instagram} alt="" />
+          </div>
+          <p className="font-normal text-white font-default text-base flex gap-2.5">
+            <span>&copy;</span>
+            <span>2022 Metabnb</span>
+          </p>
+        </div>
+      </section>
+      <section className="flex flex-col gap-6">
+        <p className="font-bold text-lg text-white font-default">Community</p>
+        <div className="flex flex-col gap-3.5">
+          <p className="footer__link">NFT</p>
+          <p className="footer__link">Tokens</p>
+          <p className="footer__link">Landlords</p>
+          <p className="footer__link">Discord</p>
+        </div>
+      </section>
+      <section className="flex flex-col gap-6">
+        <p className="font-bold text-lg text-white font-default">Places</p>
+        <div className="flex flex-col gap-3.5">
+          <p className="footer__link">Castle</p>
+          <p className="footer__link">Farms</p>
+          <p className="footer__link">Beach</p>
+          <p className="footer__link">Learn more</p>
+        </div>
+      </section>
+      <section className="flex flex-col gap-6">
+        <p className="font-bold text-lg text-white font-default">About us</p>
+        <div className="flex flex-col gap-3.5">
+          <p className="footer__link">Road map</p>
+          <p className="footer__link">Creators </p>
+          <p className="footer__link">Career</p>
+          <p className="footer__link">Contact us</p>
+        </div>
+      </section>
     </footer>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;
