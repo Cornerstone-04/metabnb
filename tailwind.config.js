@@ -13,6 +13,7 @@ module.exports = {
         primary: "#A02279",
         secondary: "FFC089",
         text: "#434343",
+        alt: "#333333",
         offWhite: "#F7F7F7",
         footer: "#1D1D1E",
         pale: "#4040404D",
@@ -20,11 +21,13 @@ module.exports = {
         borderAlt: "#B4B4B4",
         placeholder: "#B8B8B8",
         priBorder: "#A3A3A3",
+        gray: "#CFD8DC",
       },
       fontFamily: {
         default: "Red Rose",
         openSea: "Poppins",
         token: "Inter",
+        sora: "Sora",
       },
       width: {
         btn: "170px",
@@ -37,6 +40,7 @@ module.exports = {
         span: "650px",
         nft: "415px",
         704: "704px",
+        modal: "600px",
       },
       height: {
         box: "372px",
@@ -44,8 +48,10 @@ module.exports = {
         footer: "322px",
         70: "70px",
         13: "54px",
+        68: "68px",
         span: "460px",
         575: "575px",
+        modal: "326px",
       },
       maxWidth: {
         frame: "1240px",
@@ -53,6 +59,7 @@ module.exports = {
         span: "650px",
         nft: "415px",
         704: "704px",
+        modal: "600px",
       },
       backgroundImage: {
         btn: "linear-gradient(90deg, #A02279 11.45%, #A02279 11.46%)",

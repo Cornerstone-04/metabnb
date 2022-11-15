@@ -115,7 +115,7 @@ const Landing = () => {
         </div>
       </section>
       {/* Metabnb Nfts */}
-      <section className="bg-primary p-100 flex justify-between items-center">
+      <section className="bg-primary p-8 md:p-100 flex flex-col md:flex-row justify-between items-start md:items-center gap-5">
         <div className="w-full max-w-nft flex flex-col basis-2/4">
           <h1 className="font-default font-bold text-white text-5xl mb-35">
             Metabnb NFTs
