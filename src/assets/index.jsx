@@ -1,3 +1,5 @@
+import Arrow from "./icons/arrow.svg";
+import Close from "./icons/close.svg";
 import Facebook from "./icons/facebook_white.svg";
 import Instagram from "./icons/ig_white.svg";
 import Logo from "./icons/logo_coloured.svg";
@@ -35,6 +37,8 @@ import NFT2 from "./images/nfts/nft2.png";
 import NFT3 from "./images/nfts/nft3.png";
 
 export {
+  Arrow,
+  Close,
   Facebook,
   Home1,
   Home2,

@@ -17,6 +17,8 @@ import { Footer, Navbar } from "../components/";
 import home from "../data/home";
 
 const Landing = () => {
+  
+
   return (
     <div>
       <Navbar />
@@ -68,7 +70,9 @@ const Landing = () => {
       </div>
       {/* next adventure */}
       <section className="px-100 mt-58 flex flex-col items-center gap-43">
-        <h1 className="text-black text-5xl font-bold font-default">Inspiration for your next adventure</h1>
+        <h1 className="text-black text-5xl font-bold font-default">
+          Inspiration for your next adventure
+        </h1>
         <div className="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 place-items-center mx-auto max-w-full mb-53">
           {home &&
             home.map((data) => (
