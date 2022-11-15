@@ -10,25 +10,33 @@ import Setting from "./icons/setting.svg";
 import Star from "./icons/star.svg";
 import Twitter from "./icons/twitter_white.svg";
 import Wallet from "./icons/walletconnect_color.svg";
-import Place1 from "./images/image1.png";
-import Place2 from "./images/image2.png";
-import Place3 from "./images/image3.png";
-import Place4 from "./images/image4.png";
-import Place5 from "./images/image5.png";
-import Place6 from "./images/image6.png";
-import Place7 from "./images/image7.png";
-import Place8 from "./images/image8.png";
-import Place9 from "./images/image9.png";
-import Place10 from "./images/image10.png";
-import Place11 from "./images/image11.png";
-import Place12 from "./images/image12.png";
-import Place13 from "./images/image13.png";
-import Place14 from "./images/image14.png";
-import Place15 from "./images/image15.png";
-import Place16 from "./images/image16.png";
+import Place2 from "./images/places/image2.png";
+import Place1 from "./images/places/image1.png";
+import Place3 from "./images/places/image3.png";
+import Place4 from "./images/places/image4.png";
+import Place5 from "./images/places/image5.png";
+import Place6 from "./images/places/image6.png";
+import Place7 from "./images/places/image7.png";
+import Place8 from "./images/places/image8.png";
+import Place9 from "./images/places/image9.png";
+import Place10 from "./images/places/image10.png";
+import Place11 from "./images/places/image11.png";
+import Place12 from "./images/places/image12.png";
+import Place13 from "./images/places/image13.png";
+import Place14 from "./images/places/image14.png";
+import Place15 from "./images/places/image15.png";
+import Place16 from "./images/places/image16.png";
+import Home1 from "./images/home/image 4.png";
+import Home2 from "./images/home/image 3.png";
+import Home3 from "./images/home/image 6.png";
+import Home4 from "./images/home/image 5.png";
 
 export {
   Facebook,
+  Home1,
+  Home2,
+  Home3,
+  Home4,
   Instagram,
   Logo,
   LogoWhite,
