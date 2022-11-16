@@ -1,14 +1,12 @@
 import React from "react";
 import {
-  Home1,
-  Home2,
-  Home3,
-  Home4,
+  HomeGroup,
   MBToken,
   MetaMaskWhite,
   NFT1,
   NFT2,
   NFT3,
+  NFTGroup,
   OpenSea,
   Star,
 } from "../assets";
@@ -17,19 +15,17 @@ import { Footer, Navbar } from "../components/";
 import home from "../data/home";
 
 const Landing = () => {
-  
-
   return (
     <div className="relative">
       <Navbar />
-      <section className="flex justify-between px-100 mt-32 mb-67 relative">
-        <div className="flex flex-col gap-12 w-span basis-2/4">
-          <h1 className="text-text font-normal font-default text-56">
+      <section className="flex flex-col items-center gap-14 lg:flex-row justify-between px-12 lg:px-100 mt-32 mb-67 relative">
+        <div className="flex flex-col gap-12 md:w-span lg:basis-2/4">
+          <h1 className="text-text font-normal font-default text-[32px] lg:text-56">
             Rent a <span className="text-primary font-bold">Place</span> away
             from <span className="text-primary font-bold">Home</span> in the{" "}
             <span className="text-primary font-bold">Metaverse</span>
           </h1>
-          <p className="font-default font-normal text-text text-2xl">
+          <p className="font-default font-normal text-text text-xl lg:text-2xl">
             we provide you access to luxury and affordable houses in the
             metaverse, get a chance to turn your imagination to reality at your
             comfort zone
@@ -45,25 +41,22 @@ const Landing = () => {
             </button>
           </form>
         </div>
-        <div className="grid grid-cols-2 gap-2 h-span relative basis-2/4">
-          <img src={Home1} alt="" className="absolute right-242 top-99" />
-          <img src={Home2} alt="" className="absolute  top-0 right-0" />
-          <img src={Home3} alt="" className="absolute bottom-0 right-242" />
-          <img src={Home4} alt="" className="absolute right-0 top-184" />
+        <div className="h-span">
+          <img src={HomeGroup} alt="" />
         </div>
       </section>
       {/* divider */}
       <div className="w-full bg-primary flex justify-evenly h-70 items-center">
         <span className="flex items-center ">
           <img src={MBToken} alt="" />
-          <span className="font-bold text-white font-inter text-3.5">
+          <span className="font-bold text-white font-inter text-base lg:text-3.5">
             MBToken
           </span>
         </span>
-        <img src={MetaMaskWhite} alt="" />
+        <img src={MetaMaskWhite} alt="" className="w-[110px] lg:max-w-full" />
         <span className="flex items-center gap-3">
           <img src={OpenSea} alt="" />
-          <span className="font-bold text-white font-poppins text-3.5">
+          <span className="font-bold text-white font-poppins text-base lg:text-3.5">
             OpenSea
           </span>
         </span>
@@ -114,8 +107,9 @@ const Landing = () => {
             ))}
         </div>
       </section>
+
       {/* Metabnb Nfts */}
-      <section className="bg-primary p-8 md:p-100 flex flex-col md:flex-row justify-between items-start md:items-center gap-5">
+      <section className="bg-primary p-8 md:p-100 flex flex-col md:flex-row justify-between items-center gap-5">
         <div className="w-full max-w-nft flex flex-col basis-2/4">
           <h1 className="font-default font-bold text-white text-5xl mb-35">
             Metabnb NFTs
@@ -129,10 +123,8 @@ const Landing = () => {
             Learn More
           </button>
         </div>
-        <div className="relative h-575 w-full max-w-704">
-          <img src={NFT1} alt="" className="absolute left-0 bottom-0 z-10" />
-          <img src={NFT2} alt="" className="absolute right-0 top-0 z-0" />
-          <img src={NFT3} alt="" className="absolute bottom-0 right-0 z-20" />
+        <div className="relative w-full max-w-704">
+          <img src={NFTGroup} alt="" />
         </div>
       </section>
       <Footer />

@@ -28,22 +28,17 @@ import Place13 from "./images/places/image13.png";
 import Place14 from "./images/places/image14.png";
 import Place15 from "./images/places/image15.png";
 import Place16 from "./images/places/image16.png";
-import Home1 from "./images/home/image 4.png";
-import Home2 from "./images/home/image 3.png";
-import Home3 from "./images/home/image 6.png";
-import Home4 from "./images/home/image 5.png";
+import HomeGroup from "./images/home/place_group.png";
 import NFT1 from "./images/nfts/nft1.png";
 import NFT2 from "./images/nfts/nft2.png";
 import NFT3 from "./images/nfts/nft3.png";
+import NFTGroup from "./images/nfts/stack.png";
 
 export {
   Arrow,
   Close,
   Facebook,
-  Home1,
-  Home2,
-  Home3,
-  Home4,
+  HomeGroup,
   Instagram,
   Logo,
   LogoWhite,
@@ -53,6 +48,7 @@ export {
   NFT1,
   NFT2,
   NFT3,
+  NFTGroup,
   OpenSea,
   Place1,
   Place2,
