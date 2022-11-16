@@ -7,33 +7,33 @@ const Places = () => {
   return (
     <div>
       <Navbar />
-      <main className="w-full mx-auto flex flex-col justify-between item px-12 pb-24 lg:px-100 mt-32 gap-places">
-        <div className="w-full max-w-full hidden lg:flex lg:justify-center items-center gap-12">
-          <span className="text-text text-xl font-normal font-default">
+      <main className="w-full mx-auto flex flex-col justify-between item px-12 pb-24 lg:px-100 mt-12 lg:mt-32 gap-10 lg:gap-places">
+        <div className="w-full max-w-full flex lg:justify-center items-center gap-6 lg:gap-12 overflow-x-auto">
+          <span className="text-text text-sm lg:text-xl font-normal font-default">
             Restaurant
           </span>
-          <span className="text-text text-xl font-normal font-default">
+          <span className="text-text text-sm lg:text-xl font-normal font-default">
             Cottage
           </span>
-          <span className="text-text text-xl font-normal font-default">
+          <span className="text-text text-sm lg:text-xl font-normal font-default">
             Castle
           </span>
-          <span className="text-text text-xl font-normal font-default">
-            Fantast City
+          <span className="break-keep text-text text-sm lg:text-xl font-normal font-default">
+            Fantast&nbsp;City
           </span>
-          <span className="text-text text-xl font-normal font-default">
+          <span className="text-text text-sm lg:text-xl font-normal font-default">
             Beach
           </span>
-          <span className="text-text text-xl font-normal font-default">
+          <span className="text-text text-sm lg:text-xl font-normal font-default">
             Cabins
           </span>
-          <span className="text-text text-xl font-normal font-default">
+          <span className="break-keep text-text text-sm lg:text-xl font-normal font-default whitespace-nowrap">
             Off-grid
           </span>
-          <span className="text-text text-xl font-normal font-default">
+          <span className="text-text text-sm lg:text-xl font-normal font-default">
             Farm
           </span>
-          <button className="h-12 w-btnAlt bg-white flex items-center justify-between py-3 px-4 border border-borderAlt rounded-lg">
+          <button className="h-12 w-btnAlt bg-white flex items-center justify-center gap-10 py-3 px-4 border border-borderAlt rounded-lg">
             <span>Location</span>
             <img src={Setting} alt="" />
           </button>

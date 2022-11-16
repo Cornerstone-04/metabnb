@@ -44,6 +44,7 @@ module.exports = {
       },
       height: {
         box: "372px",
+        btnAlt: "161px",
         boxImg: "265px",
         footer: "322px",
         70: "70px",
