@@ -4,7 +4,7 @@ import { Arrow, Close, MetaMask, Wallet } from "../assets";
 const Modal = ({ setOpenModal }) => {
   return (
     <div className="fixed top-0 left-0 w-screen h-screen px-8 bg-pale flex justify-center items-center z-50">
-      <div className="w-full max-w-modal bg-white rounded-2xl h-modal">
+      <div className="w-full max-w-[600px] bg-white rounded-2xl h-[326px]">
         <div className="w-full flex justify-between items-center py-6 px-9 border-b border-b-gray">
           <p className="font-bold font-default text-alt text-2xl">
             Connect Wallet

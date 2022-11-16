@@ -15,5 +15,5 @@
 }
 
 .modal__btn {
-  @apply w-full h-68 flex justify-between items-center py-3 px-5 border rounded-xl border-gray;
+  @apply w-full h-[68px] flex justify-between items-center py-3 px-5 border rounded-xl border-gray;
 }

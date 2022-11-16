@@ -9,7 +9,7 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <nav className="w-full flex justify-between items-center px-12 lg:px-100 mt-10 lg:mt-43 h-12">
+    <nav className="w-full flex justify-between items-center px-12 lg:px-[100px] mt-10 lg:mt-[43px] h-12">
       <div>
         <img
           className="w-[200px] lg:w-full"
@@ -35,7 +35,7 @@ const Navbar = () => {
       </div>
 
       <button
-        className="h-12 rounded-xl hidden lg:flex justify-center items-center w-btn bg-gradient-to-t from-primary to-primary text-white font-default font-light text-base"
+        className="h-12 rounded-xl hidden lg:flex justify-center items-center w-[170px] bg-gradient-to-t from-primary to-primary text-white font-default font-light text-base"
         onClick={() => {
           setModalOpen(true);
         }}

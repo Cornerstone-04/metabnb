@@ -29,9 +29,6 @@ import Place14 from "./images/places/image14.png";
 import Place15 from "./images/places/image15.png";
 import Place16 from "./images/places/image16.png";
 import HomeGroup from "./images/home/place_group.png";
-import NFT1 from "./images/nfts/nft1.png";
-import NFT2 from "./images/nfts/nft2.png";
-import NFT3 from "./images/nfts/nft3.png";
 import NFTGroup from "./images/nfts/stack.png";
 
 export {
@@ -45,9 +42,6 @@ export {
   MetaMask,
   MetaMaskWhite,
   MBToken,
-  NFT1,
-  NFT2,
-  NFT3,
   NFTGroup,
   OpenSea,
   Place1,

@@ -24,7 +24,7 @@ const Menu = () => {
         </div>
 
         <button
-          className="h-12 rounded-xl flex justify-center items-center w-btn bg-white text-primary font-default font-medium text-base"
+          className="h-12 rounded-xl flex justify-center items-center w-[170px] bg-white text-primary font-default font-medium text-base"
           onClick={() => {
             setModalOpen(true);
           }}
