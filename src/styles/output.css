@@ -587,6 +587,14 @@ video {
   left: 0px;
 }
 
+.top-\[100px\]{
+  top: 100px;
+}
+
+.right-\[15px\]{
+  right: 15px;
+}
+
 .right-242{
   right: 242px;
 }
@@ -609,6 +617,10 @@ video {
 
 .z-50{
   z-index: 50;
+}
+
+.z-\[100\]{
+  z-index: 100;
 }
 
 .z-10{
@@ -680,12 +692,16 @@ video {
   height: 100vh;
 }
 
+.h-12{
+  height: 3rem;
+}
+
 .h-modal{
   height: 326px;
 }
 
-.h-12{
-  height: 3rem;
+.h-8{
+  height: 2rem;
 }
 
 .h-13{
@@ -708,14 +724,6 @@ video {
   height: 575px;
 }
 
-.h-6{
-  height: 1.5rem;
-}
-
-.h-8{
-  height: 2rem;
-}
-
 .min-h-screen{
   min-height: 100vh;
 }
@@ -728,8 +736,16 @@ video {
   width: 100vw;
 }
 
+.w-\[210px\]{
+  width: 210px;
+}
+
 .w-btn{
   width: 170px;
+}
+
+.w-8{
+  width: 2rem;
 }
 
 .w-span{
@@ -756,12 +772,12 @@ video {
   width: 161px;
 }
 
-.w-6{
-  width: 1.5rem;
+.w-\[292px\]{
+  width: 292px;
 }
 
-.w-8{
-  width: 2rem;
+.w-\[260px\]{
+  width: 260px;
 }
 
 .max-w-modal{
@@ -812,6 +828,10 @@ video {
   align-items: flex-start;
 }
 
+.items-end{
+  align-items: flex-end;
+}
+
 .items-center{
   align-items: center;
 }
@@ -856,16 +876,16 @@ video {
   gap: 0.75rem;
 }
 
+.gap-6{
+  gap: 1.5rem;
+}
+
 .gap-12{
   gap: 3rem;
 }
 
 .gap-43{
   gap: 43px;
-}
-
-.gap-6{
-  gap: 1.5rem;
 }
 
 .gap-5{
@@ -876,16 +896,16 @@ video {
   gap: 2.5rem;
 }
 
+.gap-y-4{
+  row-gap: 1rem;
+}
+
 .overflow-hidden{
   overflow: hidden;
 }
 
 .overflow-x-auto{
   overflow-x: auto;
-}
-
-.overflow-x-scroll{
-  overflow-x: scroll;
 }
 
 .whitespace-nowrap{
@@ -896,12 +916,12 @@ video {
   word-break: keep-all;
 }
 
-.rounded-2xl{
-  border-radius: 1rem;
-}
-
 .rounded-xl{
   border-radius: 0.75rem;
+}
+
+.rounded-2xl{
+  border-radius: 1rem;
 }
 
 .rounded-box{
@@ -965,14 +985,14 @@ video {
   background-color: #4040404D;
 }
 
-.bg-white{
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
 .bg-primary{
   --tw-bg-opacity: 1;
   background-color: rgb(160 34 121 / var(--tw-bg-opacity));
+}
+
+.bg-white{
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
 .bg-gradient-to-t{
@@ -987,6 +1007,10 @@ video {
 
 .to-primary{
   --tw-gradient-to: #A02279;
+}
+
+.p-\[20px\]{
+  padding: 20px;
 }
 
 .p-8{
@@ -1059,20 +1083,24 @@ video {
   padding-bottom: 6rem;
 }
 
+.text-right{
+  text-align: right;
+}
+
 .font-default{
-  font-family: Red Rose;
+  font-family: Red Rose, sans-serif;
 }
 
 .font-sora{
-  font-family: Sora;
+  font-family: Sora, sans-serif;
 }
 
-.font-token{
-  font-family: Inter;
+.font-inter{
+  font-family: Inter, sans-serif;
 }
 
-.font-openSea{
-  font-family: Poppins;
+.font-poppins{
+  font-family: Poppins, sans-serif;
 }
 
 .text-base{
@@ -1126,6 +1154,10 @@ video {
   font-weight: 700;
 }
 
+.font-medium{
+  font-weight: 500;
+}
+
 .font-semibold{
   font-weight: 600;
 }
@@ -1139,6 +1171,11 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.text-primary{
+  --tw-text-opacity: 1;
+  color: rgb(160 34 121 / var(--tw-text-opacity));
+}
+
 .text-alt{
   --tw-text-opacity: 1;
   color: rgb(51 51 51 / var(--tw-text-opacity));
@@ -1147,11 +1184,6 @@ video {
 .text-text{
   --tw-text-opacity: 1;
   color: rgb(67 67 67 / var(--tw-text-opacity));
-}
-
-.text-primary{
-  --tw-text-opacity: 1;
-  color: rgb(160 34 121 / var(--tw-text-opacity));
 }
 
 .text-black{
@@ -1165,16 +1197,25 @@ video {
 }
 
 .nav__link{
-  font-family: Red Rose;
-  font-size: 1.25rem;
-  line-height: 1.75rem;
+  font-family: Red Rose, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
   font-weight: 400;
   --tw-text-opacity: 1;
-  color: rgb(67 67 67 / var(--tw-text-opacity));
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+@media (min-width: 1024px){
+  .nav__link{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    --tw-text-opacity: 1;
+    color: rgb(67 67 67 / var(--tw-text-opacity));
+  }
 }
 
 .footer__link{
-  font-family: Red Rose;
+  font-family: Red Rose, sans-serif;
   font-size: 0.875rem;
   line-height: 1.25rem;
   font-weight: 400;
@@ -1199,11 +1240,11 @@ video {
 }
 
 .placeholder\:font-default::-webkit-input-placeholder{
-  font-family: Red Rose;
+  font-family: Red Rose, sans-serif;
 }
 
 .placeholder\:font-default::placeholder{
-  font-family: Red Rose;
+  font-family: Red Rose, sans-serif;
 }
 
 .placeholder\:text-base::-webkit-input-placeholder{
@@ -1251,10 +1292,6 @@ video {
 
   .md\:items-center{
     align-items: center;
-  }
-
-  .md\:justify-center{
-    justify-content: center;
   }
 
   .md\:p-100{
@@ -1311,9 +1348,17 @@ video {
     gap: 3rem;
   }
 
+  .lg\:gap-8{
+    gap: 2rem;
+  }
+
   .lg\:px-100{
     padding-left: 100px;
     padding-right: 100px;
+  }
+
+  .lg\:text-left{
+    text-align: left;
   }
 
   .lg\:text-xl{

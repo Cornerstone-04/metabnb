@@ -3,11 +3,11 @@ import { Facebook, Instagram, LogoWhite, Twitter } from "../assets";
 
 const Footer = () => {
   return (
-    <footer className="w-full lg:h-footer pt-16 pb-9 px-10 lg:px-100 bg-footer flex flex-col gap-8 lg:flex-row justify-between items-start">
+    <footer className="w-full lg:h-footer pt-16 pb-9 px-8 lg:px-100 bg-footer grid grid-cols-2 lg:flex gap-8 lg:flex-row justify-between items-start">
       <section className="flex flex-col gap-8 lg:gap-24">
         <img src={LogoWhite} alt="" />
         <div className="flex flex-col gap-4 lg:gap-14">
-          <div className="flex items-center gap-8">
+          <div className="flex items-center gap-4 lg:gap-8">
             <img src={Facebook} alt="" />
             <img src={Twitter} alt="" />
             <img src={Instagram} alt="" />
@@ -18,7 +18,7 @@ const Footer = () => {
           </p>
         </div>
       </section>
-      <section className="flex flex-col gap-2 lg:gap-6">
+      <section className="flex flex-col gap-2 lg:gap-6 text-right lg:text-left">
         <p className="font-bold text-lg text-white font-default">Community</p>
         <div className="flex flex-col gap-3.5">
           <p className="footer__link">NFT</p>
@@ -36,7 +36,7 @@ const Footer = () => {
           <p className="footer__link">Learn more</p>
         </div>
       </section>
-      <section className="flex flex-col gap-2 lg:gap-6">
+      <section className="flex flex-col gap-2 lg:gap-6 text-right lg:text-left">
         <p className="font-bold text-lg text-white font-default">About us</p>
         <div className="flex flex-col gap-3.5">
           <p className="footer__link">Road map</p>

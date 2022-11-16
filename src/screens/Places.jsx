@@ -5,7 +5,7 @@ import metaBNB from "../data/data";
 
 const Places = () => {
   return (
-    <div>
+    <div className="relative">
       <Navbar />
       <main className="w-full mx-auto flex flex-col justify-between item px-12 pb-24 lg:px-100 mt-12 lg:mt-32 gap-10 lg:gap-places">
         <div className="w-full max-w-full flex lg:justify-center items-center gap-6 lg:gap-12 overflow-x-auto">
@@ -43,9 +43,9 @@ const Places = () => {
             metaBNB.map((data) => (
               <div
                 key={data.id}
-                className="w-box m-0 flex flex-col justify-start items-center rounded-box border bg-white border-border p-4 gap-3"
+                className="w-[292px] m-0 flex flex-col justify-start items-center rounded-box border bg-white border-border p-4 gap-3"
               >
-                <section className="w-boxImg h-boxImg rounded-box overflow-hidden border border-border">
+                <section className="w-[260px] h-boxImg rounded-box overflow-hidden border border-border">
                   <img src={data.image} alt="" className="m-0" />
                 </section>
                 <section className="w-full flex flex-col gap-2.5">

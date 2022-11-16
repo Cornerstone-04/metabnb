@@ -8,7 +8,7 @@
 @tailwind utilities;
 
 .nav__link {
-  @apply font-normal text-text font-default text-xl;
+  @apply font-normal text-white lg:text-text font-default text-base lg:text-xl;
 }
 .footer__link {
   @apply font-normal text-white font-default text-sm;

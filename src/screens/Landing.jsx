@@ -20,7 +20,7 @@ const Landing = () => {
   
 
   return (
-    <div>
+    <div className="relative">
       <Navbar />
       <section className="flex justify-between px-100 mt-32 mb-67 relative">
         <div className="flex flex-col gap-12 w-span basis-2/4">
@@ -56,14 +56,14 @@ const Landing = () => {
       <div className="w-full bg-primary flex justify-evenly h-70 items-center">
         <span className="flex items-center ">
           <img src={MBToken} alt="" />
-          <span className="font-bold text-white font-token text-3.5">
+          <span className="font-bold text-white font-inter text-3.5">
             MBToken
           </span>
         </span>
         <img src={MetaMaskWhite} alt="" />
         <span className="flex items-center gap-3">
           <img src={OpenSea} alt="" />
-          <span className="font-bold text-white font-openSea text-3.5">
+          <span className="font-bold text-white font-poppins text-3.5">
             OpenSea
           </span>
         </span>

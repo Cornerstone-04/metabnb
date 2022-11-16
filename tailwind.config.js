@@ -24,10 +24,10 @@ module.exports = {
         gray: "#CFD8DC",
       },
       fontFamily: {
-        default: "Red Rose",
-        openSea: "Poppins",
-        token: "Inter",
-        sora: "Sora",
+        default: ["Red Rose", "sans-serif"],
+        poppins: ["Poppins", "sans-serif"],
+        inter: ["Inter", "sans-serif"],
+        sora: ["Sora", "sans-serif"],
       },
       width: {
         btn: "170px",
