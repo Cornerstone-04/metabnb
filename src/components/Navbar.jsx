@@ -9,9 +9,14 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <nav className="w-full flex justify-between items-center px-12 lg:px-100 mt-43 h-12">
+    <nav className="w-full flex justify-between items-center px-12 lg:px-100 mt-10 lg:mt-43 h-12">
       <div>
-        <img src={Logo} alt="" loading="lazy" />
+        <img
+          className="w-[200px] lg:w-full"
+          src={Logo}
+          alt=""
+          loading="lazy"
+        />
       </div>
 
       <div className="hidden lg:flex justify-center items-center gap-12 text-xl">

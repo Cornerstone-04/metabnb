@@ -676,6 +676,10 @@ video {
   margin-top: 3rem;
 }
 
+.mt-10{
+  margin-top: 2.5rem;
+}
+
 .flex{
   display: flex;
 }
@@ -780,6 +784,14 @@ video {
   width: 260px;
 }
 
+.w-\[160px\]{
+  width: 160px;
+}
+
+.w-\[200px\]{
+  width: 200px;
+}
+
 .max-w-modal{
   max-width: 600px;
 }
@@ -798,6 +810,10 @@ video {
 
 .max-w-704{
   max-width: 704px;
+}
+
+.max-w-\[160px\]{
+  max-width: 160px;
 }
 
 .basis-2\/4{
@@ -1304,6 +1320,10 @@ video {
     margin-top: 8rem;
   }
 
+  .lg\:mt-43{
+    margin-top: 43px;
+  }
+
   .lg\:flex{
     display: flex;
   }
@@ -1314,6 +1334,14 @@ video {
 
   .lg\:h-footer{
     height: 322px;
+  }
+
+  .lg\:w-full{
+    width: 100%;
+  }
+
+  .lg\:max-w-full{
+    max-width: 100%;
   }
 
   .lg\:grid-cols-3{
